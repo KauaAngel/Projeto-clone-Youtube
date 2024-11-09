@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  border: solid rgba(255, 255, 255, 1) 1px;
+  justify-content: space-between;
+}
+.container figure:hover {
+  cursor: pointer;
+}
+.left #lf1:hover {
+  background-color: rgba(155, 154, 154, 0.39);
+  border-radius: 16px;
+}
+.left img {
+  padding: 5px;
+}
+.right img {
+  padding: 5px;
+}
+.right figure img:hover {
+  background-color: rgba(155, 154, 154, 0.39);
+  border-radius: 6px;
+}
+#Y {
+  margin: 0px 0px 2px 50px;
+}
+.center {
+  display: flex;
+  flex-direction: row;
+}
+#pesquisa {
+  width: 348px;
+}
+#submit:hover {
+  cursor: pointer;
+}
+#bell {
+  margin: 0px 0px 0px 15px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 0 190px;
+  width: 972px;
+  max-height: 1000px;
+  font-family: roboto;
+  gap: 10px;
+  position: absolute;
+}
+h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+iframe {
+  border-radius: 16px;
+}
+.container-pc {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  cursor: pointer;
+}
+#pacote-1 {
+  display: flex;
+  gap: 42px;
+  margin: 0;
+}
+#pacote-1 img {
+  padding: 5px;
+}
+#pacote-2 {
+  display: flex;
+  gap: 42px;
+}
+#pacote-2 img {
+  padding: 5px;
+}
+#pacote-2 img:hover {
+  background-color: rgba(155, 154, 154, 0.39);
+  border-radius: 6px;
+}
+#text-1 {
+  width: 510px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.pacote-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 150px;
+}
+#pc-3 {
+  width: 430px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+#pc-3:hover {
+  cursor: pointer;
+}
+#pc-3 img:hover {
+  background-color: rgba(158, 153, 153, 0.705);
+}
